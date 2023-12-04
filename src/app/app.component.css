@@ -1,0 +1,19 @@
+
+.container{
+    display: block;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    background-color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    align-items: top;
+}
+.logo{
+    position: relative;
+    height: 100px;
+    right: 30%;
+    bottom:29%;
+}

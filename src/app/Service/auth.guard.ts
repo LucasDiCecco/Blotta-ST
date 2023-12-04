@@ -16,7 +16,7 @@ export class AuthGuard implements CanActivate {
     if (password !== null && this.authService.authenticate(url, password)) {
       return true;
     } else {
-      this.router.navigate(['/']); // Puedes redirigir a una página de error o a la página principal
+      alert('Contraseña incorrecta');
       return false;
     }
   }
