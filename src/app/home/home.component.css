@@ -1,11 +1,36 @@
-.pop{
-    display: none;
+.home{
+    display: block;
 }
 h1{
-    margin: 30px auto;
+    color: #0f3cb1;
+    font-family: 'Times New Roman', Times, serif;
 }
-img{
-    width: 100px;
+strong{
+    font-size: 45px;
+}
+.titulo{
+    max-width: 400px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-shadow: 1px 0.5px black;
+}
+.engr{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    width: 500px;
+}
+.wap{
+    position: fixed;
+    bottom: 10%;
+    right: 7%;
+}
+p{
+    color: #0f3cb1;
+    position: fixed;
+    bottom: 5%;
+    right: 6%;
 }
 *{
     text-align: center;

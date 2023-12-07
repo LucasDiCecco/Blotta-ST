@@ -1,19 +1,47 @@
-
-.container{
+header{
     display: block;
-    position: sticky;
-    top: 0;
-    font-size: 20px;
-    background-color: white;
+    min-height: 72px;
 }
+.contenedor{
+    background-color: white;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 72px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 5%;
+    align-items: center;
+    border-bottom: 1px solid lightblue;
+}
+.nav-link{
+    color: #0f3cb1
+}
+.nav-link.active{
+    background-color: #0f3cb1;
+}
+
+.pop{
+    display: none;
+}
+
 ul{
     margin: 0;
     padding: 0;
-    align-items: top;
+    max-width: 65%;
+    max-height: 72px;
 }
-.logo{
-    position: relative;
-    height: 100px;
-    right: 30%;
-    bottom:29%;
+.logo {
+    display: block;
+    position: absolute;
+    left: 5%;
+    top: 0;
+    max-height: 71px;
+}
+
+
+@media screen and (max-width: 1000px) {
+     
 }
