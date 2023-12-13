@@ -1,25 +1,27 @@
 h1{
     text-align: center;
 }
+h4{
+    max-width: 100%;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 110px;
+    padding: 5px 20px;
+    margin: 0;
+    overflow: hidden;
+}
 a:hover{
     background-color: rgb(250, 205, 25);
 }
 img{
     height: 100px;
-    float: right;
     border: 1px solid black;
 }
-a{
-    min-height: 100px;
-    padding: 5px 20px;
-    margin: 0;
-}
 p{
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    top: 40%;
-}
-.list-group{
-    color: red;
+    max-width: 50%;
+
 }

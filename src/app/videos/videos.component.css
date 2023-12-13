@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+iframe{
+    height: 80vh;
+    width: 100%;
+}
+.accordion{
+    padding: 0 5%;
+}

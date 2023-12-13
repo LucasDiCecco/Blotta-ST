@@ -4,7 +4,7 @@ header{
 }
 .contenedor{
     background-color: white;
-    z-index: 0;
+    z-index: 3;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -22,16 +22,14 @@ header{
 .nav-link.active{
     background-color: #0f3cb1;
 }
-
 .pop{
     display: none;
 }
-
-ul{
+.ruteos{
     margin: 0;
     padding: 0;
     max-width: 65%;
-    max-height: 72px;
+    max-height: 91px;
 }
 .logo {
     display: block;
@@ -40,8 +38,24 @@ ul{
     top: 0;
     max-height: 71px;
 }
+footer{
+    padding: 0 5%;
+    border-top: 1px solid lightblue;
+}
 
-
-@media screen and (max-width: 1000px) {
-     
+@media screen and (max-width: 995px) {
+    .nav-pills{
+        padding: 10px 0 0 0;
+    }
+    header{
+        height: 91px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .logo{
+        position: static;
+    }
+    .ruteos{
+        overflow: auto;
+    }
 }

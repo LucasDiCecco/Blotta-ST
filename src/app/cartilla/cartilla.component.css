@@ -45,6 +45,7 @@ h2{
     background-color: lightblue;
     width: 100%;
     align-items: center;
+    padding-bottom: 10px;
 }
 p{
     margin: 0;

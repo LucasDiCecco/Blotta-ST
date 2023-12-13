@@ -1,5 +1,6 @@
 .home{
     display: block;
+    height: 100vh;
 }
 h1{
     color: #0f3cb1;
@@ -23,14 +24,11 @@ strong{
 }
 .wap{
     position: fixed;
-    bottom: 10%;
-    right: 7%;
+    bottom: 15%;
+    right: 5%;
 }
 p{
     color: #0f3cb1;
-    position: fixed;
-    bottom: 5%;
-    right: 6%;
 }
 *{
     text-align: center;
