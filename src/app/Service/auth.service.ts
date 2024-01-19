@@ -5,10 +5,15 @@ import { Injectable } from '@angular/core';
 })
 export class AuthService {
   private passwords: { [key: string]: string [] }= {
-    '/soporte/MCE1': ['password1', 'lucas123'],
-    '/soporte/FH200': ['password2'],
-    '/soporte/UTL63': ['password3'],
-    '/soporte/ME70': ['password4'],
+    '/soporte/MCE1': ['password1', 'lucas123','mce1'],
+    '/soporte/FH200': ['password2','fh200'],
+    '/soporte/UTL63': ['password3','utl63'],
+    '/soporte/M70': ['password4','m70'],
+
+    // '/soporte/MCE1': [''],
+    // '/soporte/FH200': [''],
+    // '/soporte/UTL63': [''],
+    // '/soporte/M70': [''],
   };
 
   authenticate(url: string, password: string): boolean {

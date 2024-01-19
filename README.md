@@ -1,3 +1,6 @@
+//para cargar actualizaciones al firebase: npm run build y firebase deploy
+//para problemas hacer firebase init
+
 # BlottaST
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.

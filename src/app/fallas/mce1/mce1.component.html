@@ -1,13 +1,15 @@
+<h1 style="text-align: center; padding-top: 30px;">MCE1</h1>
 <div class="accordion" id="accordionExample">
+  
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Informacion general
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          <h4>¿Tiene Manual?</h4>
         </button>
       </h2>
-      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <a class="btn btn-primary" role="button" href="src/assets/Manuales/MCE SIEMENS S7 1212C NUEVO.MANUAL.pdf" download="Manual.pdf">
+          <a class="btn btn-primary" role="button" href="../assets/Manuales/MCE1NuevoManual.pdf" download="MCE1NuevoManual.pdf">
             Descargar el manual
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
               <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"></path>
@@ -17,28 +19,78 @@
         </div>
       </div>
     </div>
+
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingTwo">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Accordion Item #2
+          <h4>¿Cómo es el mantenimiento de la máquina?</h4>
         </button>
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <p>Video de Mantenimiento</p> 
         </div>
       </div>
     </div>
+
     <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Accordion Item #3
+      <h2 class="accordion-header" id="h3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c3" aria-expanded="false" aria-controls="c3">
+          <h4>¿Tiene garantía?</h4>
         </button>
       </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div id="c3" class="accordion-collapse collapse" aria-labelledby="h3" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <p>Esta máquina tiene una garantía de un año, puede ver la información completa 
+            descargando el archivo de garantía</p>
+          <a class="btn btn-primary" id="not" role="button" href="" download="">
+            Este botón no funciona
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"></path>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+            </svg>
+          </a>
         </div>
       </div>
     </div>
+  
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="h4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c4" aria-expanded="false" aria-controls="c4">
+          <h4>¿Qué sensores tiene y donde están ubicados?</h4>
+        </button>
+      </h2>
+      <div id="c4" class="accordion-collapse collapse" aria-labelledby="h4" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Tiene 3 sensores, el primero está ubicado en la tapa de entrada de masa, su código es I1SN-M0802P-O3U2, le sigue el de cantidad de masa ubicado debajo del calibrador, su código es SA1E-BN1-2M y el último sensor es de cantidad de relleno y está ubicado en el cilindro neumático de relleno su código es SME-8M-DS-24V-K-2,5-OE.</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- <div class="accordion-item">
+      <h2 class="accordion-header" id="h5">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c5" aria-expanded="false" aria-controls="c5">
+          <h4>Otro Video</h4>
+        </button>
+      </h2>
+      <div id="c5" class="accordion-collapse collapse" aria-labelledby="h5" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Proximamente</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="h6">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c6" aria-expanded="false" aria-controls="c6">
+          <h4>Otro Video</h4>
+        </button>
+      </h2>
+      <div id="c6" class="accordion-collapse collapse" aria-labelledby="h6" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>Proximamente</p>
+        </div>
+      </div>
+    </div> -->
+  
   </div>

@@ -4,17 +4,18 @@ header{
 }
 .contenedor{
     background-color: white;
-    z-index: 3;
+    z-index: 4;
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    min-height: 72px;
+    height: 72px;
     position: fixed;
     top: 0;
     left: 0;
     padding: 0 5%;
     align-items: center;
     border-bottom: 1px solid lightblue;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 .nav-link{
     color: #0f3cb1
@@ -22,8 +23,23 @@ header{
 .nav-link.active{
     background-color: #0f3cb1;
 }
-.pop{
-    display: none;
+#pop{
+    background: deepskyblue;
+    display: block;
+    visibility: hidden;
+    position: fixed;
+    top: 80px;
+    padding: 5px 10px;
+    left: 8%;
+}
+.nav-item:hover{
+    background-color: rgb(128, 128, 128, 0.3);
+}
+.logo:hover #pop{
+    visibility: visible;
+}
+p{
+    display: inline;
 }
 .ruteos{
     margin: 0;
@@ -42,20 +58,31 @@ footer{
     padding: 0 5%;
     border-top: 1px solid lightblue;
 }
+.btn-menu{
+    display: none;
+}
 
 @media screen and (max-width: 995px) {
-    .nav-pills{
-        padding: 10px 0 0 0;
+    .btn-menu{
+        display: block;
+        width: 180px;
+        background-color: #ffd505;
+        color: black;
+        padding: 3px 12px 7px 12px;
     }
-    header{
-        height: 91px;
+    .nav{
+        display: none;
     }
-}
-@media screen and (max-width: 700px) {
-    .logo{
-        position: static;
+    .btn-menu:hover{
+        background-color: orange;
     }
-    .ruteos{
-        overflow: auto;
-    }
+    .btn-menu:hover + .nav
+    , .nav:hover{
+        display: block;
+        padding: 5px 0 0 0;
+        position: absolute;
+        overflow: visible;
+        background-color: white;
+        box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    }   
 }

@@ -1,7 +1,7 @@
 <div class="container">
     <div class="hoja1">
-        <img id="empanadas" src="../assets/empanadas.jpg" alt="Empanadas">
-        <h1 class="año">2023</h1>
+        <img id="empanadas" src="../assets/bt-empanadas.jpg" alt="Empanadas">
+        <h1 class="año">2024</h1>
         <img id="logo" src="../assets/LOGO BLOTTA.jpg" alt="Blotta tecnología alimentaria">
     </div>
     <div class="precentacion">
@@ -72,9 +72,14 @@
     </div>
     <div class="formulario">
         <h1>Planilla de Verificación</h1>
-        <p>Si ya leyo la cartilla informativa porfavor llene el siguiente formulario:</p>
-        <div class="ir">
-            <a class="btn btn-outline-primary" role="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdMopgdr8NZWjnOydu7K8K_8RoZYnYmCe2Q4UI7fqY1fcY8xw/viewform?usp=sf_link" target="_blank">Formulario</a>
-        </div>
+        <form id="formulario">
+          <label>
+            <input type="checkbox" (change)="onCheckboxChange($event)">
+            He leído y estoy de acuerdo con todos los términos y condiciones respecto a la puesta en marcha.
+          </label>
+          <p>Por favor complete el siguiente formulario</p>
+          <br>
+          <button type="button" class="btn btn-outline-primary" [disabled]="!checkboxChecked" (click)="redirectToGoogleForm()">Ir al formulario</button>
+        </form>
     </div>
 </div>

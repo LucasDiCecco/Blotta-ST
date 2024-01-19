@@ -8,3 +8,6 @@ iframe{
 .accordion{
     padding: 0 5%;
 }
+button{
+    z-index: 0;
+}

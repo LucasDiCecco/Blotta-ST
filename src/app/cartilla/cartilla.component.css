@@ -7,7 +7,8 @@
 }
 #empanadas{
     width: 50%;
-    padding: 20px 0;
+    padding: 10px 0 0;
+    min-width: 258px;
 }
 .año{
     color: white;
@@ -60,4 +61,19 @@ h2{
 .ir{
     display: flex;
     justify-content: center;
+}
+a{
+    font-size: 25px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+label{
+    padding: 10px 20px;
+}
+button{
+    width: 90%;
+    margin: 0 5%;
 }

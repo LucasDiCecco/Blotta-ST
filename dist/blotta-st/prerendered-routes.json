@@ -1,0 +1,13 @@
+{
+  "routes": [
+    "/",
+    "/cartilla",
+    "/repuestos",
+    "/soporte",
+    "/soporte/FH200",
+    "/soporte/M70",
+    "/soporte/MCE1",
+    "/soporte/UTL63",
+    "/videos"
+  ]
+}

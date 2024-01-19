@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "n",
+    "public": "dist/blotta-st/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
